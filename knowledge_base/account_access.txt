@@ -1,0 +1,51 @@
+Account Access and Permissions
+==============================
+
+Managing Your Account Access
+
+How to Grant Access to Team Members
+
+1. Go to Account Settings
+2. Click "Team Members"
+3. Click "Invite Member"
+4. Enter their email address
+5. Select their role:
+   - Admin: Full access
+   - Editor: Can create and edit content
+   - Viewer: Read-only access
+6. Send invitation
+
+Removing Access
+
+1. Go to Account Settings
+2. Click "Team Members"
+3. Find the member you want to remove
+4. Click "Remove" button
+5. Their access is revoked immediately
+
+Account Permissions
+
+Different roles have different permissions:
+
+Admin:
+- Access to all features
+- Invite and remove team members
+- View billing and invoices
+- Change account settings
+
+Editor:
+- Create and edit content
+- View team content
+- Cannot manage billing or team members
+
+Viewer:
+- View content only
+- Cannot create or edit
+- Cannot manage team or billing
+
+Two-Factor Authentication:
+To enable 2FA for better security:
+1. Go to Settings > Security
+2. Click "Enable 2FA"
+3. Scan the QR code with an authenticator app
+4. Enter the 6-digit code to confirm

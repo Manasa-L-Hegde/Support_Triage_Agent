@@ -1,0 +1,32 @@
+API Authentication Documentation
+==================================
+
+Getting Started with API Authentication
+
+Our API uses token-based authentication. Here's how to authenticate:
+
+1. Generate an API token from your account settings
+2. Include the token in the Authorization header:
+   Header: "Authorization: Bearer YOUR_API_TOKEN"
+3. Send your API request
+
+Common Authentication Errors:
+
+401 Unauthorized:
+- Your token is missing or invalid
+- Token may have expired
+- Check that you're using the correct token
+
+403 Forbidden:
+- Your token doesn't have permission for this endpoint
+- Contact support to request access
+
+400 Bad Request:
+- Check your request format
+- Ensure all required fields are present
+- Verify JSON syntax
+
+Rate Limiting:
+- You can make 1000 requests per hour
+- If you exceed this, you'll receive a 429 Too Many Requests error
+- Wait 1 hour before retrying

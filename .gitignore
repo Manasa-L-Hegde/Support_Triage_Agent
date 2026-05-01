@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+output/
+support_tickets/
+__MACOSX/
+*.pyc

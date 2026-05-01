@@ -1,0 +1,37 @@
+Billing and Subscription FAQ
+============================
+
+Frequently Asked Questions About Billing
+
+Q: Why was I charged twice?
+A: This occasionally happens during subscription renewal. Check your billing history:
+1. Log in to your account
+2. Go to Settings > Billing
+3. Review your transaction history
+4. If you see a duplicate charge within 24 hours, it will be automatically reversed
+5. If not reversed after 48 hours, contact our billing team
+
+Q: How do I cancel my subscription?
+A: You can cancel anytime:
+1. Go to Settings > Subscription
+2. Click "Cancel Subscription"
+3. Choose a reason (optional)
+4. Confirm cancellation
+5. Your access continues until the end of your billing period
+
+Q: What payment methods do you accept?
+A: We accept:
+- Credit cards (Visa, Mastercard, American Express)
+- Debit cards
+- PayPal
+- Bank transfer (for enterprise customers)
+
+Q: Can I get a refund?
+A: We offer 30-day money-back guarantee:
+1. Request a refund within 30 days of purchase
+2. Contact our billing team with your ticket number
+3. Refunds are processed within 5-7 business days
+4. Refunds go back to your original payment method
+
+Q: How do I update my payment method?
+A: Go to Settings > Billing > Payment Methods and add or update your card.
