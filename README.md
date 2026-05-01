@@ -1,6 +1,6 @@
 # Support Triage Agent
 
-A deterministic, terminal-based support triage system for hackathon submission. It reads support tickets, classifies them, retrieves grounded documentation, decides whether to reply or escalate, and writes structured outputs for review.
+A deterministic support triage system. It reads support tickets, classifies them, retrieves grounded documentation, decides whether to reply or escalate, and writes structured outputs for review.
 
 ## Overview
 
@@ -13,7 +13,7 @@ Pipeline:
 2. Retrieval - `retriever.py` searches the knowledge-base corpus for the best document.
 3. Decision - `decision.py` chooses reply vs escalation using safety rules.
 4. Response - `response.py` generates a concise, grounded reply.
-5. Orchestration - `main.py` ties everything together and writes the outputs.
+5. Orchestration - `main.py` ties everything together and writes the batch outputs.
 
 ## Key Properties
 
@@ -51,8 +51,3 @@ python main.py
 
 - `output/output.csv` - final triage results
 - `output/log.txt` - structured execution log
-
-## Submission Notes
-
-- Keep `output/`, `support_tickets/`, and `__pycache__/` out of the GitHub repo.
-- Include the code files, `README.md`, and any required submission artifacts separately if the platform asks for them.
