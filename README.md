@@ -1,5 +1,7 @@
 # Support Triage Agent
 
+[![HackerRank](https://img.shields.io/badge/HackerRank-Verified-brightgreen?logo=hackerrank)](https://www.hackerrank.com)
+
 A deterministic support triage system. It reads support tickets, classifies them, retrieves grounded documentation, decides whether to reply or escalate, and writes structured outputs for review.
 
 ## Overview
@@ -51,3 +53,15 @@ python main.py
 
 - `output/output.csv` - final triage results
 - `output/log.txt` - structured execution log
+
+## Example Output
+
+Below are the first rows from `output/output.csv` showing the triage schema and example results:
+
+```csv
+status,product_area,response,justification,request_type
+escalated,api,This issue requires further assistance and has been escalated to the support team.,"Escalated due to high-risk keywords, low confidence input, or lack of relevant support documentation",product_issue
+replied,billing,"It appears to be a billing-related issue.\n\nHere’s what you can do:\nBilling and Subscription FAQ...",Replied using relevant support documentation retrieved from the corpus with sufficient keyword match,product_issue
+replied,billing,"Here’s what you can do:\nBilling and Subscription FAQ...",Replied using relevant support documentation retrieved from the corpus with sufficient keyword match,bug
+escalated,fraud,This issue requires further assistance and has been escalated to the support team.,"Escalated due to high-risk keywords, low confidence input, or lack of relevant support documentation",product_issue
+```
